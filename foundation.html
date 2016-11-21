@@ -1,15 +1,45 @@
 <!DOCTYPE html>
-<head>
-  <title>Foundations Classwork</title>
-  <link rel="stylesheet" href="css/foundation.css">
-  <link rel="stylesheet" href="css/app.css">
-</head>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Starter Template</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.dropdownMenu.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.core.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.util.keyboard.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.util.motion.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.util.triggers.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.util.touch.js">
+
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.js"></script>
+  </head>
 
 <body>
-  The grid is 12 columns wide. 
+  The grid is 12 columns wide.
+
   <div class="row">
     <div class="small-2 large-4 columns">2 columns</div>
     <div class="small-4 large-4 columns">4 columns</div>
     <div class="small-6 large-4 columns">6 columns</div>
   </div>
+
+  <div class="slider" data-slider data-initial-start="50" data-end="200">
+    <span class="slider-handle"  data-slider-handle role="slider" tabindex="1"></span>
+    <span class="slider-fill" data-slider-fill></span>
+    <input type="hidden">
+  </div>
+
+  <ul class="dropdown menu" data-dropdown-menu>
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+    <li><a href="#">Item 4</a></li>
+  </ul>
 </body>
+</html>
