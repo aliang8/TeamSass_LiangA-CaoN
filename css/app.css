@@ -1,0 +1,14 @@
+body{ 
+    background-color: azure;
+}
+
+h1,h4,h5{
+    color: cornflowerblue;
+    text-align: center;
+    font-weight: 2em;
+}
+
+#submit{
+    position: absolute;
+    left: 50%;
+}
