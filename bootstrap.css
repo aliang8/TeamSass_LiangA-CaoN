@@ -1,0 +1,30 @@
+.grid > div {
+    margin-top: 5px;
+    padding: 20px;
+    outline: 2px solid #f442e5;
+    outline-offset: -10px;
+}
+
+.navbar-custom {
+    background-color: #eaa8e5;
+    color: #eaa8e5;
+    border: 2px solid blueviolet;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color: blueviolet;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus {
+    color: blueviolet;
+}
+
+.navbar-custom .navbar-brand {
+    color: blueviolet;
+}
+
+.page-header {
+    font-size: 50px;
+}
